@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Archivo de normalizacion-->
+    <link rel="stylesheet" href="assests/css/normalize.css">
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" href="assests/css/style.css">
+    <!--Fuentes de la pagina-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    
+    <!--Titulo-->
+    <title>Articulo del master</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-principal">
+
+            <a href="index.html">
+                <div class="logo">
+                    <img src="assests/images/react.svg" alt="Imagen Logo" >
+                    <p> <span class="bold">Curso</span>React</p>
+                </div>
+            </a>
+
+            <div class="iconos">
+                <div class="luna">
+                    <img src="assests/images/moon-solid.svg" alt="luna">
+                </div>
+            
+                <div class="mobile-menu">
+                    <img src="assests/images/bars-solid.svg" alt="menu">
+                </div>
+            </div>
+            
+        </div>
+
+        <nav class="navegacion no-activo">
+            <a href="index.html">Inicio</a>
+            <a href="blog.html">Blog</a>
+            <a href="formulario.html">Formulario</a>
+            <a href="pagina1.html">Pagina</a>
+            <a href="pagina2.html">Pagina</a>
+        </nav>
+    </header>
+
+
+    <main class="contenedor principal-articulo">
+
+        <section class="articulo-detalle">
+            
+            <div class="imagen-articulo-detalle">
+                <h3>Articulo de Prueba</h3>
+            </div>
+            
+            <p>Hace 5 minutos</p>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor erat purus, id molestie magna pulvinar in. Phasellus ut vehicula arcu, at tempus eros. Vestibulum vel sodales augue. Maecenas id consectetur ipsum, in porta risus. Ut non ipsum nulla. Nulla ac erat scelerisque, semper eros et, efficitur lorem. Nullam enim ligula, congue quis nulla et, semper pharetra nisl. Vivamus mi elit, tempor id feugiat et, aliquam sed risus. Curabitur non purus malesuada, pulvinar lorem eget, convallis erat. In tempor dolor sed quam euismod, at placerat libero pellentesque. Donec sit amet varius ligula, a consequat tortor. Cras condimentum turpis vehicula nisl luctus vehicula. Vestibulum vehicula venenatis lorem quis fermentum. Proin elementum, turpis vitae ornare pharetra, ante mi varius mauris, pharetra interdum tortor ante vitae mauris.
+
+                Sed eget scelerisque nisl. Aliquam pulvinar malesuada sollicitudin. Phasellus posuere dui nec dui mollis cursus. Nullam sed pulvinar erat. Pellentesque faucibus sem a diam pharetra ultricies. Suspendisse potenti. Nullam sed nibh et metus tempus aliquam eget eget risus. Cras a rhoncus velit. Ut ac dui dapibus, tincidunt erat sit amet, tincidunt magna. Integer ut suscipit dui, nec pharetra erat. </p>
+            
+        </section>
+
+        <section class="funciones">
+            <div class="crear">
+                <h4>Puedes hacer esto</h4>
+                <hr>
+                <a class="boton" href="\">Crear artículo</a>
+            </div>
+            <div class="buscar">
+                <h4>Buscador</h4>
+                <hr>
+                <form method ="POST" class="formulario-buscar" novalidate>
+                    <label for="buscar">Encuentra el articulo que buscas</label>
+                    <input type="text" name="buscar" id="buscar" placeholder="Buscar...." id="buscar">
+                    <input type="submit" value="Buscar" class="boton boton-enviar">
+                </form>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p> &copy; Master en frameworks para JavaScript de victorroblesweb.es</p>
+    </footer>
+    <script src="assests/js/modernizer.js" type="text/javascript"></script>
+    <script src="assests/js/app.js" type="text/javascript"></script>
+    
+</body>
+</html>

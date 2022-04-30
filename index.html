@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Archivo de normalizacion-->
+    <link rel="stylesheet" href="assests/css/normalize.css">
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" href="assests/css/style.css">
+    <!--Fuentes de la pagina-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    
+    <!--Titulo-->
+    <title>Maquetacion para el Master en Frameworks</title>
+</head>
+<body>
+    <header class = "header ">
+
+        <div class="logo-principal">
+
+            <a href="index.html">
+                <div class="logo">
+                    <img src="assests/images/react.svg" alt="Imagen Logo" >
+                    <p> <span class="bold">Curso</span>React</p>
+                </div>
+            </a>
+
+            <div class="iconos">
+                <div class="luna">
+                    <img src="assests/images/moon-solid.svg" alt="luna">
+                </div>
+            
+                <div class="mobile-menu">
+                    <img src="assests/images/bars-solid.svg" alt="menu">
+                </div>
+            </div>
+           
+            
+        </div>
+        
+        <nav class="navegacion no-activo">
+            <a href="index.html">Inicio</a>
+            <a href="blog.html">Blog</a>
+            <a href="formulario.html">Formulario</a>
+            <a href="pagina1.html">Pagina</a>
+            <a href="pagina2.html">Pagina</a>
+        </nav>
+    </header>
+
+    <section class="encabezado-inicio ">
+        <h4 class="no-margin no-padding">Bienvenido al Curso de React con Victor Robles de victorroblesweb.es</h4>
+        <a href="blog.html" class="boton">Ir al blog</a>
+    </section>
+
+    <main class="contenedor principal">
+
+        <section class="articulos">
+            <h3 class="centrar-texto">Ultimos articulos</h3>
+
+            <div class="articulo">
+                <div class="imagen-articulo">
+                    <img src="assests/images/articulo.jpeg" alt="Imagen articulo">
+                </div>
+                <div class="texto-articulo">
+                    <h4 class="">Articulo de prueba</h4>
+                    <p class="no-margin no-padding">Hace 5 minutos</p>
+                    <a class="boton" href="articulo.html">Leer mas</a>
+                </div>
+            </div>
+
+            <div class="articulo">
+                <div class="imagen-articulo">
+                    <img src="assests/images/articulo.jpeg" alt="Imagen articulo">
+                </div>
+                <div class="texto-articulo">
+                    <h4 class="">Articulo de prueba</h4>
+                    <p class="no-margin no-padding">Hace 5 minutos</p>
+                    <a class="boton" href="articulo.html">Leer mas</a>
+                </div>
+            </div>
+
+            <div class="articulo">
+                <div class="imagen-articulo">
+                    <img src="assests/images/articulo.jpeg" alt="Imagen articulo">
+                </div>
+                <div class="texto-articulo">
+                    <h4 class="">Articulo de prueba</h4>
+                    <p class="no-margin no-padding">Hace 5 minutos</p>
+                    <a class="boton" href="articulo.html">Leer mas</a>
+                </div>
+            </div>
+
+            <div class="articulo">
+                <div class="imagen-articulo">
+                    <img src="assests/images/articulo.jpeg" alt="Imagen articulo">
+                </div>
+                <div class="texto-articulo">
+                    <h4 class="">Articulo de prueba</h4>
+                    <p class="no-margin no-padding">Hace 5 minutos</p>
+                    <a class="boton" href="articulo.html">Leer mas</a>
+                </div>
+            </div>
+
+            <div class="articulo">
+                <div class="imagen-articulo">
+                    <img src="assests/images/articulo.jpeg" alt="Imagen articulo">
+                </div>
+                <div class="texto-articulo no-borde">
+                    <h4>Articulo de prueba</h4>
+                    <p class="no-margin no-padding">Hace 5 minutos</p>
+                    <a class="boton" href="articulo.html">Leer mas</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="funciones">
+            <div class="crear">
+                <h4>Puedes hacer esto</h4>
+                <hr>
+                <a class="boton" href="\">Crear artículo</a>
+            </div>
+            <div class="buscar">
+                <h4>Buscador</h4>
+                <hr>
+                <form method ="POST" class="formulario-buscar" novalidate>
+                    <label for="buscar">Encuentra el articulo que buscas</label>
+                    <input type="text" name="buscar" id="buscar" placeholder="Buscar...." id="buscar">
+                    <input type="submit" value="Buscar" class="boton boton-enviar">
+                </form>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p> &copy; Master en frameworks para JavaScript de victorroblesweb.es</p>
+    </footer>
+
+    <script src="assests/js/modernizer.js" type="text/javascript"></script>
+    <script src="assests/js/app.js" type="text/javascript"></script>
+</body>
+</html>
